@@ -71,6 +71,7 @@ app.get('/dashboard-ai-&-machine-learning', (req, res) => {
 app.use(authRoutes);
 
 // Start Server
-app.listen(port, () => {
+app.listen(port, '0.0.0.0', () => {
     console.log(`Server running at http://16.170.214.112:${port}`);
 });
+
