@@ -72,5 +72,5 @@ app.use(authRoutes);
 
 // Start Server
 app.listen(port, () => {
-    console.log(`Server running at http://localhost:${port}`);
+    console.log(`Server running at http://16.170.214.112:${port}`);
 });
